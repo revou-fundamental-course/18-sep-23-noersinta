@@ -1,0 +1,293 @@
+body{
+    padding: 0 25px;
+    font-family: sans-serif;
+}
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.nav {
+    display: flex;
+}
+.page-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-item {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover{
+background-color: gray;
+}
+
+.content-title{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+}
+
+.content-left{
+    box-sizing: border-box;
+    width: 50%;
+}
+.content-right{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: lightgray;
+}
+
+.contentForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelForm{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.formItem{
+    padding: 15px 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 8px 2px;
+}
+
+select{
+    padding: 8px 2px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: gray;
+    color: black;
+}
+.errorMessage{
+    color: red;
+    font-size: 0.8em;
+    padding-top: 3px;
+}
+
+.image{
+    width: 100%;
+    display: hidden !important;
+}
+
+.active{
+    display: block;
+}
+
+.content-image{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.content-image span{
+    color: gray;
+    padding-top: 30px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 3px solid rgb(243, 243, 243);
+    padding-bottom: 20px;
+}
+.circle{
+    background-color: rgb(243, 243, 243);
+    width: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.circle > img {
+    width: 30px;
+}
+.profileName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoHeader{
+    padding: 30px 0px 20px 0px;
+}
+
+.infoBox{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+}
+
+.infoIcon{
+    box-sizing: border-box;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.infoDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.package{
+    display: flex;
+    flex-direction: column;
+}
+
+.packageHeader{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    padding: 50px 0px;
+}
+
+.packageBox{
+    padding: 50px 50px 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+.packageCard{
+    display: flex;
+    gap: 10px;
+    width: 30%;
+    height: 200px;
+}
+
+.packageIcon{
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.packageContent{
+    text-align: justify;
+}
+
+.packageIcon > img{
+    width: 30px;
+    height: 30px;
+}
+
+.callBox{
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 50px 0px;
+}
+
+.callBox > span{
+    width: 60%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.btnCallAction{
+    box-sizing: border-box;
+    width: 180px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btnCallAction:hover{
+    background-color: gray;
+    color: black;
+}
+
+.footer{
+    padding: 20px 50px;
+    border-top: 2px solid rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkFooter{
+    display: flex;
+    gap: 20px;
+}
+
+.linkFooter > a{
+    text-decoration: none;
+}
+
+.titleFooter{
+    font-size: 1.5em;
+    font-weight: bold;
+}

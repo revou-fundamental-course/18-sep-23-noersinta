@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>E-Groceries</title>
+    
+</head>
+<body onload="plusDiv(1)">
+    <header class="navigation">
+        <div class="page-title">E-Groceries</div>
+        <div class="nav">
+            <a href="#content-title" class="nav-item">Home</a>
+            <a href="#package" class="nav-item">Our Packcage</a>
+            <a href="#footer" class="nav-item">Call Us</a>
+        </div>
+    </header>
+    <main>
+    <div id="title" class="content-title">
+        <div>
+            <h1>Top rated E-Groceries shop in Indonesia</h1>
+        </div>
+        <div>
+            <span>Everyday with best ingredient</span>
+        </div>
+    </div>
+
+    <div id="content" class="content">
+        <div id="content-left" class="content-left">
+            <div id="content-image" class="content-image">
+                <img src="assets/ellie.png" class="image fade" >
+            </div>
+            <div class="contentleftspan">
+                <span><i>Fresh everyday</i></span>
+            </div>
+            <div class="profile">
+                <div class="circle">
+                    <img src="assets/person-icon.png" alt="profile">
+                </div>
+            <div class="profileName">
+                <span><b>Florence Huge</b></span>
+                <span> Homeworker</span>
+            </div>
+            </div>
+            <div>
+                <div class="infoHeader">
+                    <span><b>Use this space to provide users with more information about your
+                            offer.
+                            Consider it a
+                            follow-up to your headline and
+                            explain the benefits of your service or product</b></span>
+                </div>
+                <div class="infoBox">
+                    <div class="info">
+                        <div class="infoIcon">
+                            <span>1</span>
+                        </div>
+                        <div class="infoDescription">Your first feature, written in the form of a benefit statement.
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="infoIcon">
+                            <span>2</span>
+                        </div>
+                        <div class="infoDescription">Your second feature, written in the form of a benefit
+                            statement.
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="infoIcon">
+                            <span>3</span>
+                        </div>
+                        <div class="infoDescription">Your third feature, written in the form of a benefit statement.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="content-right" class="content-right">
+            
+            <form name="formContact" class="content-form">
+                <div>
+                    <h1>Contact Us</h1>
+                </div>
+                <div>
+                    <span>We're ready x24 for everyday</span>
+                </div>
+                <label for="yourName" class="labelForm">Your name</label>
+                <input type="text" class="formItem" name="yourName" id="yourName" name="yourName" placeholder="First and last name">
+                <span id="nameError" class="errorMessage"></span>
+                <label for="yourEmail" class="labelForm">Email adress</label>
+                <input type="email" id="yourEmail" class="formItem" name="yourEmail" placeholder="address@gmail.com">
+                <span id="emailError" class="errorMessage"></span>
+                <label for="selection" class="labelForm">What are you interested in?</label>
+                <select id="selection" class="formItem" type="select" name="selection">
+                    <option value="" disabled selected hidden>Select option</option>
+                    <option value="">drawing</option>
+                    <option value="">football</option>
+                    <option value="">swimming</option>
+                </select>
+                <span id="selectError" class="errorMessage"></span>
+
+                <button id="button" type="submit" class="button">SEND</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="package" id="package">
+        <div class="packageHeader">
+            <h1>Our Package</h1>
+        </div>
+        <div class="packageBox">
+            <div class="packageCard">
+                <div class="packageIcon">
+                    <img src="assets/person-icon.png"
+                        alt="profile">
+                </div>
+                <div class="packageContent">
+                    <p><b>Kevin</b></p>
+                    <span>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</span>
+                </div>
+            </div>
+            <div class="packageCard">
+                <div class="packageIcon">
+                    <img src="assets/person-icon.png"
+                        alt="profile">
+                </div>
+                <div class="packageContent">
+                    <p><b>Aponia</b></p>
+                    <span>Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik</span>
+                </div>
+            </div>
+            <div class="packageCard">
+                <div class="packageIcon">
+                    <img src="assets/person-icon.png"
+                        alt="profile">
+                </div>
+                <div class="packageContent">
+                    <p><b>Kalpas</b></p>
+                    <span>This description supports and extends the bullet point above.</span>
+                </div>
+            </div>
+            <div class="packageCard">
+                <div class="packageIcon">
+                    <img src="assets/person-icon.png"
+                        alt="profile">
+                </div>
+                <div class="packageContent">
+                    <p><b>Kosma</b></p>
+                    <span>This description supports and extends the bullet point above.</span>
+                </div>
+            </div>
+            <div class="packageCard">
+                <div class="packageIcon">
+                    <img src="assets/person-icon.png"
+                        alt="profile">
+                </div>
+                <div class="packageContent">
+                    <p><b>Sakura</b></p>
+                    <span>This description supports and extends the bullet point above.</span>
+                </div>
+            </div>
+            <div class="packageCard">
+                <div class="packageIcon">
+                    <img src="assets/person-icon.png"
+                        alt="profile">
+                </div>
+                <div class="packageContent">
+                    <p><b>Pardofelis</b></p>
+                    <span>This description supports and extends the bullet point above.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="callBox">
+        <h1>Your Closing Argument Headline</h1>
+        <span>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis
+            tincidunt risus. Phasellus fringilla odio vel erat fringilla,</span>
+        <button class="btnCallAction">CALL TO ACTION</button>
+    </div>
+</main>
+
+    <footer>
+        <div id="footer" class="footer">
+            <div class="titleFooter">E-Groceries</div>
+            <div class="linkFooter">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <span>@2019 E-Groceries</span>
+        </div>
+    </footer>
+</body>
+</html>
